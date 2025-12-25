@@ -21,6 +21,6 @@ jobs:
           port: ${{ secrets.SFTP_PORT }}
           local_path: './*'
           # IMPORTANTE: Ajusta la ruta de abajo si es necesario
-          remote_path: '/mods/deathmatch/resources'
+          remote_path: 'mods/deathmatch'
           sftp_only: true
           delete_remote_files: false
