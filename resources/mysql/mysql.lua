@@ -1,4 +1,4 @@
-connection = dbConnect( "mysql", "dbname=NombreDB;host=127.0.0.1", "usuario", "contraseña", "share=0" )
+connection = dbConnect( "mysql", "dbname=s275991_chamosrp;host=gamma.optiklink.com:3306", "u275991_OnWqzSnRjX", "^TSoW7sXqhK@irqc=hU=tqUW", "share=0" )
 
 function connect()
 	return connection
